@@ -1,0 +1,8 @@
+group,variable,changes
+&domain_nml,distribution_type,roundrobin
+&domain_nml,nprocs,361
+&domain_nml,processor_shape,square-ice
+&setup_nml,dt,1800
+&setup_nml,history_chunksize_x,720
+&setup_nml,history_chunksize_y,540
+&setup_nml,npt,2232

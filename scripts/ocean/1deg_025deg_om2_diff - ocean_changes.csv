@@ -1,0 +1,17 @@
+group,variable,Values to change in ocean config
+&mpp_io_nml,deflate_level,5
+&ocean_bihgen_friction_nml,bottom_5point,FALSE
+&ocean_bihgen_friction_nml,ncar_boundary_scaling,FALSE
+&ocean_lapgen_friction_nml,use_this_module,FALSE
+&ocean_mixdownslope_nml,use_this_module,FALSE
+&ocean_model_nml,io_layout,"[6, 5]"
+&ocean_model_nml,layout,"[48, 40]"
+&ocean_nphysics_util_nml,agm_closure_length,20000
+&ocean_nphysics_util_nml,agm_closure_max,200
+&ocean_nphysics_util_nml,aredi,200
+&ocean_nphysics_util_nml,aredi_diffusivity_grid_scaling,TRUE
+&ocean_sbc_nml,do_bitwise_exact_sum,FALSE
+&ocean_sigma_transport_nml,use_this_module,FALSE
+&ocean_submesoscale_nml,smooth_advect_transport_num,4
+&ocean_submesoscale_nml,smooth_psi_num,3
+&ocean_vert_mix_nml,j09_diffusivity,FALSE

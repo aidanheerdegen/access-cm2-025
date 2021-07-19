@@ -1,0 +1,6 @@
+python patch_namelist.py ocean/1deg_cm2_om2_diff\ -\ ocean\ changes.csv ocean/1deg_om2_input.nml > ocean/1deg_cm2_input.nml
+python patch_namelist.py ocean/1deg_025deg_om2_diff\ -\ ocean_changes.csv ocean/1deg_cm2_input.nml > ocean/025deg_cm2_input.nml 
+
+python patch_namelist.py ice/1deg_cm2_om2_diff\ -\ ice\ changes.csv ice/cice_in.nml > ice/1deg_cm2_cice_input.nml 
+python patch_namelist.py ice/1deg_025deg_om2_diff\ -\ ice\ changes.csv ice/1deg_cm2_cice_input.nml > ice/025deg_cm2_cice_input.nml 
+

@@ -1,0 +1,26 @@
+group,variable,Values to change in ocean config
+&auscom_ice_nml,dt_cpl,1800
+&mom_oasis3_interface_nml,fields_in,"['u_flux', 'v_flux', 'lprec', 'fprec', 'salt_flx', 'mh_flux', 'sw_flux', 'q_flux', 't_flux', 'lw_flux', 'runof', 'p', 'aice', 'wfimelt', 'wfiform', 'co2_io', 'wnd_io', 'licefw', 'liceht']"
+&mom_oasis3_interface_nml,fields_out,"['t_surf', 's_surf', 'u_surf', 'v_surf', 'dssldx', 'dssldy', 'frazil', 'co2_o', 'co2fx_o']"
+&mom_oasis3_interface_nml,num_fields_in,19
+&mom_oasis3_interface_nml,num_fields_out,9
+&mom_oasis3_interface_nml,send_after_ocean_update,FALSE
+&mom_oasis3_interface_nml,send_before_ocean_update,TRUE
+&ocean_model_nml,dt_ocean,1800
+&ocean_model_nml,impose_init_from_restart,TRUE
+&ocean_rivermix_nml,river_diffuse_salt,FALSE
+&ocean_rivermix_nml,river_diffuse_temp,FALSE
+&ocean_riverspread_nml,use_this_module,TRUE
+&ocean_sbc_nml,salt_restore_under_ice,FALSE
+&ocean_sbc_nml,zero_net_salt_restore,FALSE
+&ocean_sbc_nml,zero_net_water_correction,FALSE
+&ocean_sbc_nml,zero_net_water_couple_restore,FALSE
+&ocean_sbc_nml,zero_net_water_coupler,FALSE
+&ocean_sbc_nml,zero_net_water_restore,FALSE
+&ocean_solo_nml,calendar,gregorian
+&ocean_solo_nml,date_init,"[1950, 1, 1, 0, 0, 0]"
+&ocean_solo_nml,days,184
+&ocean_solo_nml,dt_cpld,1800
+&xgrid_nml,interp_method,DELETE
+&xgrid_nml,make_exchange_reproduce,DELETE
+&xgrid_nml,nsubset,DELETE
