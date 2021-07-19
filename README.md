@@ -1,4 +1,4 @@
-# ACCESS-CM2-)25 Ocean Component
+# ACCESS-CM2-025 Ocean Component
 
 This is the 0.25 degree Ocean model from the [ACCESS-OM2 model](https://github.com/COSIMA/025deg_jra55_iaf), adapated for use with the ACCESS-CM2 model.
 
