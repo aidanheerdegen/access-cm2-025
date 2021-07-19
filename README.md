@@ -1,16 +1,11 @@
-# 025deg_jra55_iaf
-Standard configuration for 0.25 degree [ACCESS-OM2](https://github.com/COSIMA/access-om2) experiment (ACCESS-OM2-025) with JRA55-do interannual forcing (IAF).
+# ACCESS-CM2-)25 Ocean Component
 
-For usage instructions, see the [ACCESS-OM2 wiki](https://github.com/COSIMA/access-om2/wiki).
+This is the 0.25 degree Ocean model from the [ACCESS-OM2 model](https://github.com/COSIMA/025deg_jra55_iaf), adapated for use with the ACCESS-CM2 model.
 
-Run length and timestep are set in `accessom2.nml`. The default timestep for this configuration is 1350 seconds, and the model is stable with this timestep right from the start. After the first year or two of model equilibration you may be able to run with a 1800s timestep for faster throughput.
+The atmospheric forcing component of the model has been removed, and the ocean and ice namelists updated. 
 
-**NOTE:** All ACCESS-OM2 model components and configurations are undergoing continual improvement. We strongly recommend that you "watch" this repo (see button at top of screen; ask to be notified of all conversations) and also watch [ACCESS-OM2](https://github.com/COSIMA/access-om2), all the [component models](https://github.com/COSIMA/access-om2/tree/master/src), and [payu](https://github.com/payu-org/payu) to be kept informed of updates, problems and bug fixes as they arise.
+The [COSIMA ACCESS-OM2 1 degree model](https://github.com/COSIMA/1deg_jra55_iaf) namelists were compared to the 1 degree ocean model from CM2, with ocean specific parameters retained, and any parameters required for a coupled model added.
 
-## Conditions of use
+The 1 degree ACCESS-OM2 model namelists were then compared to the 0.25 ACCESS-OM2 model, and any 0.25 specific changes were added.
 
-We request that users of this or other ACCESS-OM2 model code:
-1. consider citing Kiss et al. (2020) ([http://doi.org/10.5194/gmd-13-401-2020](http://doi.org/10.5194/gmd-13-401-2020))
-2. include an acknowledgement such as the following:
-*The authors thank the Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA; [http://www.cosima.org.au](http://www.cosima.org.au)) for making the ACCESS-OM2 suite of models available at [https://github.com/COSIMA/access-om2](https://github.com/COSIMA/access-om2).*
-3. let us know of any publications which use these models or data so we can add them to [our list](https://scholar.google.com/citations?hl=en&user=inVqu_4AAAAJ).
+The `scripts` subfolder contains a python script used to "patch" the namelist files with additions (subtractions). 
