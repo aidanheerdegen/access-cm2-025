@@ -48,15 +48,15 @@
 /
 
 &domain_nml
-    distribution_type = 'roundrobin'
-    distribution_wght = 'block'
-    ew_boundary_type = 'cyclic'
-    maskhalo_bound = .true.
-    maskhalo_dyn = .true.
-    maskhalo_remap = .true.
-    nprocs = 361
-    ns_boundary_type = 'tripole'
-    processor_shape = 'square-ice'
+    distribution_type = 'cartesian'
+    distribution_wght = 'latitude'
+    ew_boundary_type  = 'cyclic'
+    maskhalo_bound    = .true.
+    maskhalo_dyn      = .true.
+    maskhalo_remap    = .true.
+    nprocs            = 96
+    ns_boundary_type  = 'tripole'
+    processor_shape   = 'slenderX1'
 /
 
 &tracer_nml
