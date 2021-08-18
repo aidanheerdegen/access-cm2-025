@@ -27,7 +27,7 @@
     pointer_file = './RESTART/ice.restart_file'
     print_global = .false.
     print_points = .false.
-    restart = .true.
+    restart = .false.
     restart_dir = './RESTART/'
     restart_ext = .true.
     restart_file = 'iced'
