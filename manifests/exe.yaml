@@ -1,11 +1,11 @@
 format: yamanifest
 version: 1.0
 ---
-work/ice/cice_auscom_1440x1080_480p_2572851_libaccessom2_a227a61.exe:
-  fullpath: /g/data/ik11/inputs/access-om2/bin/cice_auscom_1440x1080_480p_2572851_libaccessom2_a227a61.exe
+work/ice/cice_auscom_1440x1080_96p.exe:
+  fullpath: /scratch/v45/aph502/access-om2/bin/cice_auscom_1440x1080_96p.exe
   hashes:
-    binhash: 4a7af64c1e1d1a98c62f5e647ee3b538
-    md5: 0436fb18b8a22427327fa3a3bef144c4
+    binhash: 5a253880ee7ddee6194c1e2b98c50e8e
+    md5: 529455ca378702b03df7ddb861f27749
 work/ocean/fms_ACCESS-OM_af3a94d_libaccessom2_a227a61.x:
   fullpath: /g/data/ik11/inputs/access-om2/bin/fms_ACCESS-OM_af3a94d_libaccessom2_a227a61.x
   hashes:

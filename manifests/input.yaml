@@ -1,37 +1,37 @@
 format: yamanifest
 version: 1.0
 ---
-work/ice/RESTART/grid.nc:
+work/ice/INPUT/grid.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/grid.nc
   hashes:
     binhash: ef32f5ea0beca45e4aaf2f4833b339d0
     md5: 24920ffb6c0fea5f6ec1e590a5f46280
-work/ice/RESTART/i2o.nc:
+work/ice/INPUT/i2o.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/i2o.nc
   hashes:
     binhash: 169a43590d8b0c812af3d993c4f65e8c
     md5: ca16c9eef58814b9ff13fd5e8bd88a25
-work/ice/RESTART/kmt.nc:
+work/ice/INPUT/kmt.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/kmt.nc
   hashes:
     binhash: 01227be8425456ad64f9973e5ffaccbd
     md5: 576e78b474c37f61a6fb45c9f5692bc6
-work/ice/RESTART/monthly_sstsss.nc:
+work/ice/INPUT/monthly_sstsss.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/monthly_sstsss.nc
   hashes:
     binhash: 2fdf1798189b37092a239c9c947d9d26
     md5: 598c7aa8a08fe3f48a621f781dd26331
-work/ice/RESTART/o2i.nc:
+work/ice/INPUT/o2i.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/o2i.nc
   hashes:
     binhash: 29b684d1cc141deb8f4bc69a47c12801
     md5: 5c695c6a91b4a2f64e653a5baa62c34a
-work/ice/RESTART/u_star.nc:
+work/ice/INPUT/u_star.nc:
   copy: true
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/u_star.nc
   hashes:
@@ -47,11 +47,36 @@ work/ocean/INPUT/grid_spec.nc:
   hashes:
     binhash: ae901d0f717e53515ca692138e02f264
     md5: 57663e6575e424cce2cf98bc9778786a
+work/ocean/INPUT/mask_table.105.24x24:
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/mask_table.105.24x24
+  hashes:
+    binhash: a7601a4618f67907751ada2d6bcea8dc
+    md5: de3a7aa1b81bedfc1a081942efcd6889
+work/ocean/INPUT/mask_table.119.32x20:
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/mask_table.119.32x20
+  hashes:
+    binhash: 6e0cb2b5017e3194a46170853326eaea
+    md5: 21cfa5d9eebdd7b50c1027a703acdabd
+work/ocean/INPUT/mask_table.150.32x24:
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/mask_table.150.32x24
+  hashes:
+    binhash: 56cd9e6c0d2b5fd2e349e2371422f374
+    md5: af78de8d44f9430807d04dfe6769f0f3
 work/ocean/INPUT/mask_table.465.48x40:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg/mask_table.465.48x40
   hashes:
     binhash: 78890536cf18e166ab321c735bfb3d98
     md5: 10be6631aa435160b4d36531a4f6fd64
+work/ocean/INPUT/mask_table.85.24x20:
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/mask_table.85.24x20
+  hashes:
+    binhash: 31efe87238b4f5f19f0653d81ad8a58e
+    md5: 5dfad99662f136cf81e73b4dc745b77b
+work/ocean/INPUT/mask_table.97.24x24:
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/mask_table.97.24x24
+  hashes:
+    binhash: 3a97eab03c0b95284ef135b8c373b889
+    md5: 6cc7d2d25113e7128edfd55c488cefe9
 work/ocean/INPUT/ocean_hgrid.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg/ocean_hgrid.nc
   hashes:
@@ -63,10 +88,10 @@ work/ocean/INPUT/ocean_mask.nc:
     binhash: be9a9fee69a77e01905aa46033997d19
     md5: 238bb01f653ae8a22a7efea4abda5442
 work/ocean/INPUT/ocean_mask_table:
-  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg/ocean_mask_table
+  fullpath: /scratch/v45/aph502/access-om2/input/cm2_025/ocean_mask_table
   hashes:
-    binhash: e2d8c0480d04f17bfd2f18c6a2442fd7
-    md5: 10be6631aa435160b4d36531a4f6fd64
+    binhash: 8bfcc5f4e49316c07825a1b2e7d13dd5
+    md5: af78de8d44f9430807d04dfe6769f0f3
 work/ocean/INPUT/ocean_mosaic.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg/ocean_mosaic.nc
   hashes:
